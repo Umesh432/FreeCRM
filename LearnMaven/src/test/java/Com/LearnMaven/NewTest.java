@@ -23,8 +23,10 @@ public class NewTest {
 	  
 	  System.out.println("using testng test 4 class name NewTest");
   }
+  @Test
 public void RUN5() {
 	  
 	  System.out.println("using testng test 5 class name NewTest");
   }
 }
+ 

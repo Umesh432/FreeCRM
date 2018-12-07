@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="59" started-at="2018-12-07T19:45:39Z" finished-at="2018-12-07T19:45:39Z">
+  <suite name="Default suite" duration-ms="66" started-at="2018-12-07T20:02:13Z" finished-at="2018-12-07T20:02:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="59" started-at="2018-12-07T19:45:39Z" finished-at="2018-12-07T19:45:39Z">
+    <test name="Default test" duration-ms="66" started-at="2018-12-07T20:02:13Z" finished-at="2018-12-07T20:02:13Z">
       <class name="Com.LearnMaven.NewTest">
-        <test-method status="PASS" signature="RUN1()[pri:0, instance:Com.LearnMaven.NewTest@1efbd816]" name="RUN1" duration-ms="13" started-at="2018-12-08T01:15:39Z" finished-at="2018-12-08T01:15:39Z">
+        <test-method status="PASS" signature="RUN1()[pri:0, instance:Com.LearnMaven.NewTest@1efbd816]" name="RUN1" duration-ms="23" started-at="2018-12-08T01:32:13Z" finished-at="2018-12-08T01:32:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RUN1 -->
-        <test-method status="PASS" signature="RUN12()[pri:0, instance:Com.LearnMaven.NewTest@1efbd816]" name="RUN12" duration-ms="7" started-at="2018-12-08T01:15:39Z" finished-at="2018-12-08T01:15:39Z">
+        <test-method status="PASS" signature="RUN12()[pri:0, instance:Com.LearnMaven.NewTest@1efbd816]" name="RUN12" duration-ms="4" started-at="2018-12-08T01:32:13Z" finished-at="2018-12-08T01:32:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RUN12 -->
-        <test-method status="PASS" signature="RUN3()[pri:0, instance:Com.LearnMaven.NewTest@1efbd816]" name="RUN3" duration-ms="1" started-at="2018-12-08T01:15:39Z" finished-at="2018-12-08T01:15:39Z">
+        <test-method status="PASS" signature="RUN3()[pri:0, instance:Com.LearnMaven.NewTest@1efbd816]" name="RUN3" duration-ms="1" started-at="2018-12-08T01:32:13Z" finished-at="2018-12-08T01:32:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RUN3 -->
-        <test-method status="PASS" signature="RUN4()[pri:0, instance:Com.LearnMaven.NewTest@1efbd816]" name="RUN4" duration-ms="1" started-at="2018-12-08T01:15:39Z" finished-at="2018-12-08T01:15:39Z">
+        <test-method status="PASS" signature="RUN4()[pri:0, instance:Com.LearnMaven.NewTest@1efbd816]" name="RUN4" duration-ms="3" started-at="2018-12-08T01:32:13Z" finished-at="2018-12-08T01:32:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RUN4 -->
+        <test-method status="PASS" signature="RUN5()[pri:0, instance:Com.LearnMaven.NewTest@1efbd816]" name="RUN5" duration-ms="3" started-at="2018-12-08T01:32:13Z" finished-at="2018-12-08T01:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RUN5 -->
       </class> <!-- Com.LearnMaven.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
