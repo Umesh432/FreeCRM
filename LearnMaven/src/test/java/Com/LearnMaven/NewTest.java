@@ -18,4 +18,13 @@ public class NewTest {
 	  
 	  System.out.println("using testng test 3 class name NewTest");
   }
+  @Test
+  public void RUN4() {
+	  
+	  System.out.println("using testng test 4 class name NewTest");
+  }
+public void RUN35() {
+	  
+	  System.out.println("using testng test 5 class name NewTest");
+  }
 }
