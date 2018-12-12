@@ -1,12 +1,25 @@
 package Com.LearnMaven;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
+import Com.LearnMaven.DriverManager.DriverManager;
+import Com.LearnMaven.DriverManager.DriverManagerFactory;
+import Com.LearnMaven.DriverManager.DriverType;
+
 public class NewTest {
+	 WebDriver driver;
+	 DriverManager driverManager;
   @Test
   public void RUN1() {
 	  
-	  System.out.println("using testng test 1 class name NewTest");
+	  String path = System.getProperty("user.dir");
+	  System.out.println(path);
+	  driverManager = DriverManagerFactory.getManager(DriverType.CHROME);
+	  driver = driverManager.getDriver();
+	  driver.get("https://www.geeksforgeeks.org/");
+	  driver.getTitle();
+	  
   }
   @Test
   public void RUN12() {
