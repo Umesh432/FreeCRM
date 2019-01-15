@@ -13,33 +13,17 @@ public class NewTest {
   @Test
   public void RUN1() {
 	  
-	  String path = System.getProperty("user.dir");
-	  System.out.println(path);
-	  driverManager = DriverManagerFactory.getManager(DriverType.CHROME);
+	 
+	  driverManager = DriverManagerFactory.getManager(DriverType.CHROMEHEADLESS);
 	  driver = driverManager.getDriver();
 	  driver.get("https://www.geeksforgeeks.org/");
 	  driver.getTitle();
+	  System.out.println(driver.getTitle());
+	  System.out.println(driver.getCurrentUrl());
+	
+	  
 	  
   }
-  @Test
-  public void RUN12() {
-	  
-	  System.out.println("using testng test 2 class name NewTest");
-  }
-  @Test
-  public void RUN3() {
-	  
-	  System.out.println("using testng test 3 class name NewTest");
-  }
-  @Test
-  public void RUN4() {
-	  
-	  System.out.println("using testng test 4 class name NewTest");
-  }
-  @Test
-public void RUN5() {
-	  
-	  System.out.println("using testng test 5 class name NewTest");
-  }
+  
 }
  

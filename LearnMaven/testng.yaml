@@ -1,0 +1,8 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+    classes:
+      - Com.LearnMaven.NewTest
+      - Com.LearnMaven.NewTest2
+
