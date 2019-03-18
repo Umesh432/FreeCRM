@@ -11,7 +11,7 @@ public class DriverManagerFactory {
                 driverManager = new ChromeDriverManager();
                 break;
             case FIREFOX:
-               // driverManager = new FirefoxDriverManager();
+                driverManager = new FireFoxDriverManager();
                 break;
             case CHROMEHEADLESS:
             	driverManager=new ChromeDriverManagerHeadless();

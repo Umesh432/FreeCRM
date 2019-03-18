@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Com.LearnMaven.NewTest"/>
-      <class name="Com.LearnMaven.NewTest2"/>
-     </classes>
+      <class name="Com.LearnMaven.FirstTest"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

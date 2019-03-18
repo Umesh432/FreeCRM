@@ -10,8 +10,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class ChromeDriverManager extends DriverManager {
 
 	protected ChromeDriverService chService;
-	String path = System.getProperty("user.dir");
-	String otherFolder = path + "//Browserexe//chromedriver.exe";
+
 
     @Override
     public void startService() {

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10427" started-at="2019-01-15T20:16:59Z" finished-at="2019-01-15T20:17:09Z">
+  <suite name="Default suite" duration-ms="2795" started-at="2019-02-20T19:03:27Z" finished-at="2019-02-20T19:03:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10427" started-at="2019-01-15T20:16:59Z" finished-at="2019-01-15T20:17:09Z">
+    <test name="Default test" duration-ms="2795" started-at="2019-02-20T19:03:27Z" finished-at="2019-02-20T19:03:30Z">
       <class name="Com.LearnMaven.NewTest">
-        <test-method status="PASS" signature="RUN1()[pri:0, instance:Com.LearnMaven.NewTest@5419f379]" name="RUN1" duration-ms="10409" started-at="2019-01-16T01:46:59Z" finished-at="2019-01-16T01:47:09Z">
+        <test-method status="PASS" signature="RUN1()[pri:0, instance:Com.LearnMaven.NewTest@5e3a8624]" name="RUN1" duration-ms="2778" started-at="2019-02-21T00:33:27Z" finished-at="2019-02-21T00:33:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RUN1 -->
