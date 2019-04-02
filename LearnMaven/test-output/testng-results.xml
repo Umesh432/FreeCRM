@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2795" started-at="2019-02-20T19:03:27Z" finished-at="2019-02-20T19:03:30Z">
+  <suite name="Default suite" duration-ms="7405" started-at="2019-04-02T19:21:54Z" finished-at="2019-04-02T19:22:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2795" started-at="2019-02-20T19:03:27Z" finished-at="2019-02-20T19:03:30Z">
-      <class name="Com.LearnMaven.NewTest">
-        <test-method status="PASS" signature="RUN1()[pri:0, instance:Com.LearnMaven.NewTest@5e3a8624]" name="RUN1" duration-ms="2778" started-at="2019-02-21T00:33:27Z" finished-at="2019-02-21T00:33:30Z">
+    <test name="Default test" duration-ms="7405" started-at="2019-04-02T19:21:54Z" finished-at="2019-04-02T19:22:02Z">
+      <class name="Com.LearnMaven.Handle_CheckBOX">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:Com.LearnMaven.Handle_CheckBOX@4883b407]" name="openbrowser" is-config="true" duration-ms="2879" started-at="2019-04-03T00:51:54Z" finished-at="2019-04-03T00:51:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RUN1 -->
-      </class> <!-- Com.LearnMaven.NewTest -->
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="checkcoxclick()[pri:0, instance:Com.LearnMaven.Handle_CheckBOX@4883b407]" name="checkcoxclick" duration-ms="3866" started-at="2019-04-03T00:51:57Z" finished-at="2019-04-03T00:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkcoxclick -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Com.LearnMaven.Handle_CheckBOX@4883b407]" name="closeBrowser" is-config="true" duration-ms="643" started-at="2019-04-03T00:52:01Z" finished-at="2019-04-03T00:52:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Com.LearnMaven.Handle_CheckBOX -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

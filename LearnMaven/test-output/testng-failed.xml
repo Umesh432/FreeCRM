@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Com.LearnMaven.NewTest">
+      <class name="Com.LearnMaven.Handle_CheckBOX">
         <methods>
-          <include name="RUN1"/>
+          <include name="checkcoxclick"/>
+          <include name="openbrowser"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- Com.LearnMaven.NewTest -->
+      </class> <!-- Com.LearnMaven.Handle_CheckBOX -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
